@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: Arial, serif;
+}
+.logo_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*header*/
+#header {
+    background-color: #020303;
+    padding: 30px 0;
+}
+#header_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 282px;
+}
+#header_logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#header_logo_text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+}
+#header .header_link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fdefd5;
+    margin-right: 56px;
+}
+
+/*main*/
+
+#main {
+background-color: #020303;
+
+}
+#main_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 133px 0 80px 0;
+}
+#main_info {
+    display: inline-block;
+    margin-right: 16px;
+}
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    color: #ffffff;
+
+    margin: 0;
+    display: inline-block;
+    width: 564px;
+}
+#main_supersushi {
+    color: #ffaf18;
+}
+#main_advantage_wrapper {
+    margin-top: 74px;
+    margin-right: -45px;
+    margin-left: -45px;
+}
+.main_advantage {
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.main_advantage_img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+.main_advantage_text {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+#main_action {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;   
+
+    color: #020303;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 175, 24);
+    box-sizing: border-box;
+
+    margin-top: 92px;
+}
+#main_image {
+    display: inline-block;
+}
+
+/*menu*/
+
+#menu_wrapper {
+   background-color: #020303;
+}
+#menu_container {
+    width: 1200px;
+    padding: 120px 0;
+    margin: 0 auto;
+}
+#menu {
+    margin: -12px;
+    font-size: 0;
+}
+#menu h2 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin: 0;
+
+    margin-bottom: 60px;
+}
+#menu .menu_card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    height: 354px;  
+
+    display: inline-block;
+    margin: 12px;
+    padding: 15px 0;
+}
+.menu_card_img {
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 3.056;
+    text-align: center;
+    margin: 0; 
+}
+.menu_card_text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+
+    margin-top: 15px;
+    height: 40px;
+     
+}
+.menu_card_action {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+
+    color: #020303;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 175, 24);
+    box-sizing: border-box;
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*about_best_person*/
+#about_best_person {
+    background-color: #020303;
+}
+#about_best_person_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+#about_best_person_info {
+    display: inline-block;
+    margin-right: 14px;
+    margin-bottom: 164px;
+}
+#about_best_person h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    width: 367px;  
+    
+    margin: 0;
+}
+#about_best_person_text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    left: 360px;
+    width: 388px;
+
+    margin-top: 60px;
+}
+#about_best_person_images {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/*footer*/
+#footer {
+    background-color: #000000;
+}
+#footer_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+#footer_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+#footer_logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#footer_logo_text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+}
+#footer_main_info {
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+
+    display: inline-block;
+  }
+  
