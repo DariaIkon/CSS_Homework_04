@@ -2,10 +2,25 @@ body {
     margin: 0;
     font-family: Arial, serif;
 }
+.logo {
+    text-decoration: none;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 .logo_text {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
 }
 
 /*header*/
@@ -18,19 +33,7 @@ body {
     margin: 0 auto;
 }
 #header_logo {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 282px;
-}
-#header_logo img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-#header_logo_text {
-    display: inline-block;
-    vertical-align: middle;
-    width: 60px;
 }
 #header .header_link {
     text-decoration: none;
@@ -43,7 +46,6 @@ body {
 
 #main {
 background-color: #020303;
-
 }
 #main_container {
     width: 1200px;
@@ -52,7 +54,8 @@ background-color: #020303;
 }
 #main_info {
     display: inline-block;
-    margin-right: 16px;
+    padding-bottom: 45px;
+    vertical-align: middle;
 }
 h1 {
     font-size: 45px;
@@ -69,19 +72,16 @@ h1 {
 }
 #main_advantage_wrapper {
     margin-top: 74px;
-    margin-right: -45px;
-    margin-left: -45px;
+    font-size: 0;
 }
 .main_advantage {
     display: inline-block;
-    margin-right: 45px;
-    margin-left: 45px;
+    margin-right: 99px;
 }
 .main_advantage_img {
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
-
 }
 .main_advantage_text {
     font-size: 16px;
@@ -98,6 +98,7 @@ h1 {
 
     color: #020303;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 30px;
     border: 1px solid rgb(255, 175, 24);
     box-sizing: border-box;
@@ -106,6 +107,7 @@ h1 {
 }
 #main_image {
     display: inline-block;
+    vertical-align: middle;
 }
 
 /*menu*/
@@ -130,28 +132,30 @@ h1 {
     text-align: center;
     margin: 0;
 
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 #menu .menu_card {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
     width: 282px;
-    height: 354px;  
 
     display: inline-block;
     margin: 12px;
-    padding: 15px 0;
+    padding: 15px 20px;
+
+    box-sizing: border-box;
+    text-align: center;
 }
 .menu_card_img {
     text-align: center;
 }
-h3 {
+.menu_card_heading {
     font-size: 18px;
     color: rgb(24, 26, 26);
     font-weight: bold;
-    line-height: 3.056;
     text-align: center;
     margin: 0; 
+    margin-top: 30px;
 }
 .menu_card_text {
     font-size: 14px;
@@ -160,15 +164,15 @@ h3 {
     text-align: center;
 
     margin-top: 15px;
-    height: 40px;
-     
+    height: 53px;   
 }
 .menu_card_action {
     background-color: rgb(255, 175, 24);
     width: 224px;
-    height: 60px;
+    height: 50px;
 
     color: #020303;
+    font-weight: bold;
     font-size: 16px;
     border-radius: 30px;
     border: 1px solid rgb(255, 175, 24);
@@ -189,8 +193,8 @@ h3 {
 }
 #about_best_person_info {
     display: inline-block;
+    vertical-align: top;
     margin-right: 14px;
-    margin-bottom: 164px;
 }
 #about_best_person h2 {
     font-size: 35px;
@@ -213,7 +217,7 @@ h3 {
 }
 #about_best_person_images {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 /*footer*/
@@ -226,19 +230,7 @@ h3 {
     padding: 30px 0 30px 0;
 }
 #footer_logo {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 390px;
-}
-#footer_logo img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-#footer_logo_text {
-    display: inline-block;
-    vertical-align: middle;
-    width: 60px;
 }
 #footer_main_info {
     font-size: 12px;
@@ -246,5 +238,5 @@ h3 {
     line-height: 1.2;
 
     display: inline-block;
-  }
+}
   
